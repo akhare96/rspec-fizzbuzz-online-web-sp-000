@@ -9,5 +9,4 @@ def fizzbuzz(x)
   else if (x % 3 == true) && (x % 5 == true)
     put "Fizzbuzz"
   else nil
-  end
 end
