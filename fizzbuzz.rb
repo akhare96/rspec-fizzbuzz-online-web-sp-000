@@ -4,9 +4,10 @@
 def fizzbuzz(x)
   if x % 3 == true
     put "Fizz"
-  else if x % 5 == true
+  elsif x % 5 == true
     put "Buzz"
-  else if (x % 3 == true) && (x % 5 == true)
+  elsif (x % 3 == true) && (x % 5 == true)
     put "Fizzbuzz"
   else nil
+  end
 end
