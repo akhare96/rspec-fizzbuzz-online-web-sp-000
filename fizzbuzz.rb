@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(x)
-  if x % 3 == true
+  if x % 3 == 0
     put "Fizz"
-  elsif x % 5 == true
+  elsif x % 5 == 0
     put "Buzz"
-  elsif (x % 3 == true) && (x % 5 == true)
+  elsif (x % 3 == 0) && (x % 5 == 0)
     put "Fizzbuzz"
   else
     return
